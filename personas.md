@@ -2,7 +2,7 @@
 
 ## Traycee Adams
 
-*49, female, executive assistant*
+*50, female, executive assistant*
 
 Traycee has just been diagnosed with Stage 1 breast cancer and she is looking to help her treatment and recover by eating healthy and staying in shape. She has some friends who have told her abut having different kinds of fruit and that it can help to make her feel better after her treatment; it will help her body recover naturally
 
