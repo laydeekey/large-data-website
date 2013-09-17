@@ -39,11 +39,11 @@ The card sort was conducted by Keisha Chamberlain on Thursday, September 10th, 2
 
 ![Card sort 2 results](card-sort-2.jpg)
 
-*Card sort 2 by James Gollner*
+*Card sort 2 by Steve Donegoni*
 
 ![Card sort 3 results](card-sort-2.jpg)
 
-*Card sort 2 by Steve Donegoni*
+*Card sort 3 by James Gollner*
 
 ## Observations
 
