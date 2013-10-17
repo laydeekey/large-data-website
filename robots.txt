@@ -1,0 +1,9 @@
+# http://robotstxt.org
+
+# show search engines where to find our sitemap
+Sitemap: http://veryberryberies.com/sitemap.xml
+
+User-Agent: *
+
+# Block images from showing in search results
+# Disallow: /img

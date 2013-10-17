@@ -1,0 +1,25 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Keisha Chamberlain <laydeekey@gmail.com>
+Site: http://www.facebook.com/kayceecreations.com
+GitHub: https://github.com/laydeekey
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Icons from The Noun Project <http://thenounproject.com/>
+Fonts from Very Berry Berries <http://dafont.com/>
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Dreamweaver CC
+- Git + GitHub
+- Markdown
