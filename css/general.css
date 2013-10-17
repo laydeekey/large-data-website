@@ -112,6 +112,28 @@
 	
 	}	
 
+@media only screen and (min-width: 25em) {
+	
+	.logoimage {
+		min-width: 300px;
+		min-height: 150px;
+		padding-left: 1.7em;
+	}	
+	
+	.side p {
+		text-align: center;
+	}
+	
+	h3 {
+		font-size: 20px;
+	}
+	
+	.img img {
+		padding-bottom: 2em;
+		padding-left: 7em;
+	}
+}
+
 @media only screen and (min-width: 30em) {
 	
 	.logoimage {
@@ -158,7 +180,7 @@
 @media only screen and (min-width: 60em) {
 	
 	.logoimage {
-		padding-top: .5em;
+		padding-top: 0;
 		min-width: 300px;
 		min-height: 150px;
 		padding-left: 0;
@@ -170,6 +192,7 @@
 	
 	.searchbar {
 		position: fixed;
+		padding-top: .5em;
 	}
 	
 	.side p {
@@ -211,8 +234,20 @@
 	
 	header {
 		float: right;
-		padding-top: 1em;
-		padding-right: 19.8em;
+		padding-top: 14em;
+		padding-right: 21.7em;
+	}
+	
+	.headercom {
+		float: right;
+		padding-top: 14em;
+		padding-right: 22.3em;
+	}
+	
+	.headeruncom {
+		float: right;
+		padding-top: 14em;
+		padding-right: 20.4em;
 	}
 	
 	.sidebarimg {
@@ -230,5 +265,28 @@
 	.text {
 		float: right;
 		clear: both;
-		padding-left: 20em;
+		padding-left: 18em;
+		padding-bottom: 3em;
 	}
+	
+	.list {
+		float: right;
+		clear: both;
+		padding-left: 22em;
+		padding-bottom: 3em;
+	}
+
+@media only screen and (min-width: 65em) {
+	
+	.side p {
+		padding-right: 48em;
+	}
+	
+}
+
+@media only scree and (min-width: 80em) {
+	
+	.side p {	
+		padding-right: 0;
+	}
+}
