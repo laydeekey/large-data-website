@@ -5,169 +5,230 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
-
-html {
-	background-color: #FFF;
-}
-
-.left {
-	width: 30%;
-	height: 100%;
-	position: fixed;
-	min-width: 160px;
-	float: left;
-}
-
-.logo img {
-	max-width: 300px;
-	max-height: 200px;
-	position: fixed;
-	margin: 0;
-	padding-top: .5em;
-}
-
-.side p {
-	margin-top: 13em;
-	margin-left: 2em;
-	text-align: justify;
-	margin-right: 8em;
-	font-family: 'Futura', medium;
 	
-}
-
-.common {
-	font-family: 'Futura', medium;
-	font-size: 16px;
-	text-align: left;
-	font-size: 18px;
-	padding-top: 1em;
-}
-
-.uncommon {
-	font-family: 'Futura', medium;
-	font-size: 16px;
-	text-align: left;
-	font-size: 18px;
-	padding-bottom: 5em;
-}
-
-
-.common ul {
-	list-style-type: none;
-}
-
-.uncommon ul {
-	list-style-type: none;
-}
-
-nav a {
-	text-decoration: none;
-	color: #0C9;
-	margin-top: 10em;
-	padding: top;
-}
-
-header {
-	font-family: 'Futura', medium;
-	font-size: 24px;
-	float: left;
-	text-align:left;
-	padding-left: 16.6em;
-	padding-top: 9em;
-	padding-bottom: 0;
-}
+	.searchbar {
+		padding-left: 2em;
+		float: left;
+	}
 	
-.searchbar {
-	float: right;
-	padding-top: 1em;
-	position: fixed;
-	margin-left: 75em;
-}
-
-h3 {
-	text-align: left;
-}
-
-.text {
-	float: right;
-	font-family: 'Futura';
-	font-size: 18px;
-	text-align: justify;
-	padding-left: 22em;
-	padding-right: 15em;
-	padding-bottom: 10em;	
-}
-
-.list {
-	float: right;
-	font-family: 'Futura';
-	font-size: 18px;
-	text-align: justify;
-	padding-left: 22em;
-	padding-right: 15em;
-	padding-bottom: 10em;		
-}
-
-img {
-	float: left;
-	max-width: 400px;
-	max-height: 200px;
-	margin-top: 5em;
-}
-
-/*
-.smoothie img {
-	max-width: 140px;
-	padding-left: 40em;
-	padding-top: 15em;
-	padding-bottom: 15em;
-}
-
-.berry img {
-	max-width: 140px;
-	padding-left: 1em;
-	padding-top: 15em;
+	.logoimage {
+		width: 100%;
+		height: 100%;
+		margin-top: 1em;
+		padding-left: .5em;
+		max-width: 175px;
+		max-height: 250px;
+	}
 	
-}*/
+	.common {
+		padding-left: 0;
+		margin: 0;
+		font-family: 'Futura', medium;
+		font-size: 16px;
+		text-align: center;
+		font-size: 18px;
+	}
+	
+	.uncommon {
+		padding: 0;
+		margin: 0;
+		font-family: 'Futura', medium;
+		font-size: 16px;
+		text-align: center;
+		font-size: 18px;
+	}
+	
+	.common ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	
+	.uncommon ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	
+	nav a {
+		text-decoration: none;
+		color: #0C9;
+		
+	}
+	
+	.side p {
+		margin-top: 1em;
+		margin-left: 1em;
+		text-align: justify;
+		margin-right: 1em;
+		font-family: 'Futura', medium;
+		word-spacing: normal;
+	}
+	
+	.sidebarimg {
+		max-height: 200px;
+		max-width: 200px;
+		display: none;
+	}
+	
+	header {
+		font-family: 'Futura', medium;
+		font-size: 20px;
+		float: left;
+		text-align: center;
+		padding-left: 1em;
+		padding-top: 2em;
+		word-spacing: normal;
+	}
+		
+	.text {
+		float: right;
+		font-family: 'Futura';
+		font-size: 18px;
+		text-align: left;
+		padding-bottom: 2em;
+		padding: 0 1em;	
+		word-spacing: normal;
+	}
+	
+	h3 {
+		font-size: 16px;
+		font-family: 'Futura';
+		padding-left: 1em;
+	}
+	
+	.list {
+		float: right;
+		font-family: 'Futura';
+		font-size: 14px;
+		text-align: left;
+		padding-right: 1em;
+	}
+		
+	
+	.img img {
+		max-width: 200px;
+		max-height: 200px;
+		padding-bottom: 2em;
+		padding-left: .5em;
+	
+	}	
 
-.button-link {
-    padding: 10px 15px;
-    background: #4479BA;
-    color: #FFF;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    border: solid 1px #20538D;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    -webkit-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
-}
-.button-link:hover {
-    background: #356094;
-    border: solid 1px #2A4E77;
-    text-decoration: none;
-}
-.button-link:active {
-    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
-    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
-    background: #2E5481;
-    border: solid 1px #203E5F;
+@media only screen and (min-width: 30em) {
+	
+	.logoimage {
+		min-width: 300px;
+		min-height: 150px;
+		padding-left: 3em;
+	}	
+	
+	.side p {
+		text-align: center;
+	}
+	
+	h3 {
+		font-size: 20px;
+	}
+	
+	.img img {
+		padding-bottom: 2em;
+		padding-left: 7em;
+	}
 }
 
 @media only screen and (min-width: 40em) {
 	
+	.logoimage {
+		padding-right: 4em;
+		padding-left: 5em;
+	}	
 	
+	.img img {
+		padding-left: 12em;
+	}
+
+@media only screen and (min-width: 50em) {
 	
-}
+	.logoimage {
+		padding-left: 1.5em;
+	}	
+	
+	.img img {
+		padding-left: 17em;
+	}
+	
+@media only screen and (min-width: 60em) {
+	
+	.logoimage {
+		padding-top: .5em;
+		min-width: 300px;
+		min-height: 150px;
+		padding-left: 0;
+	}	
+	
+	.left {
+		position: fixed;
+	}
+	
+	.searchbar {
+		position: fixed;
+	}
+	
+	.side p {
+		float: left;
+		text-align: left;
+		padding-right: 41em;
+		padding-left: 1em;
+		padding-top: 5em;
+		position: fixed;
+	}
+	
+	.common {
+		text-align: left;
+		float: left;
+		padding-left: 1.7em;
+		position: fixed;
+	}
+	
+	.uncommon {
+		text-align: left;
+		float: left;
+		padding-left: 1.7em;
+		position: fixed;
+	}
 
-
-
+	.common ul {
+		margin-bottom: 0;
+		padding-top: 0em;
+	}
+	
+	.uncommon ul {
+		padding-top: 2em;
+	}
+	
+	.img img {
+		padding-left: 17em;
+		display: none;
+	}
+	
+	header {
+		float: right;
+		padding-top: 1em;
+		padding-right: 19.8em;
+	}
+	
+	.sidebarimg {
+		float: left;
+		display: block;
+		padding-left: 1em;
+		position: fixed;
+		padding-top: 20em;
+	}
+	
+	h3 {
+		padding: 0;
+	} 
+	
+	.text {
+		float: right;
+		clear: both;
+		padding-left: 20em;
+	}
