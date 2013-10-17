@@ -41,20 +41,20 @@ The website is targeted at enthusiasts who are interested in finding out more in
 ## To-do
 
 - [x] Research
-- [ ] Content organization
-- [ ] Tasks & priorities
-- [ ] Prototype
-- [ ] Style exploration
-- [ ] Writing exploration
-- [ ] Component guide
-- [ ] Homepage design
-- [ ] Inside pages
-- [ ] Comments
-- [ ] Categories
-- [ ] Search results
-- [ ] Accessibility
+- [x]Content organization
+- [x] Tasks & priorities
+- [x] Prototype
+- [x] Style exploration
+- [x] Writing exploration
+- [x] Component guide
+- [x] Homepage design
+- [x] Inside pages
+- [x] Comments
+- [x] Categories
+- [x] Search results
+- [x] Accessibility
 - [ ] 404 page
-- [ ] SEO
+- [x] SEO
 - [ ] Metadata
 - [ ] Speed
 
