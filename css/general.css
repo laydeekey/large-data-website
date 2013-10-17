@@ -287,6 +287,7 @@
 @media only scree and (min-width: 80em) {
 	
 	.side p {	
-		padding-right: 0;
+		clear: both;
+		margin-right: 60em;
 	}
 }
