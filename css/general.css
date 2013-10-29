@@ -14,36 +14,67 @@
 	.logoimage {
 		width: 100%;
 		height: 100%;
+		padding: 0;
 		margin-top: 1em;
-		padding-left: .5em;
 		max-width: 175px;
 		max-height: 250px;
 	}
 	
-	.common {
-		padding-left: 0;
+	.home {
 		margin: 0;
 		font-family: 'Futura', medium;
-		font-size: 16px;
 		text-align: center;
 		font-size: 18px;
 	}
 	
-	.uncommon {
-		padding: 0;
+	.nutrition {
 		margin: 0;
 		font-family: 'Futura', medium;
-		font-size: 16px;
 		text-align: center;
 		font-size: 18px;
 	}
 	
-	.common ul {
+	.recipes {
+		margin: 0;
+		font-family: 'Futura', medium;
+		text-align: center;
+		font-size: 18px;
+	}
+	
+	.edible {
+		margin: 0;
+		font-family: 'Futura', medium;
+		text-align: center;
+		font-size: 18px;
+	}
+	
+	.inedible {
+		margin: 0;
+		font-family: 'Futura', medium;
+		text-align: center;
+		font-size: 18px;
+	}
+	.home ul {
 		list-style-type: none;
 		padding: 0;
 	}
 	
-	.uncommon ul {
+	.nutrition ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	
+	.recipes ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	
+	.edible ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	
+	.inedible ul {
 		list-style-type: none;
 		padding: 0;
 	}
@@ -51,16 +82,156 @@
 	nav a {
 		text-decoration: none;
 		color: #0C9;
-		
+	}
+	
+	.recipeimg {
+		width: 100%;
+		padding-left: 1.5em;
+		margin-top: 1em;
+		max-width: 175px;
+		max-height: 250px;
+	}
+	
+	.name {
+		font-family: 'Futura', medium;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	
+	.author {
+		font-family: 'Futura', medium;
+		font-size: 16px;
+		text-align: center;
+		margin-top: .5em;
+		margin-bottom: 2em;
+	}
+	
+	.description {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em;
+	}
+	
+	.recipe-cooking {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em;
+	}
+	
+	.recipe-facts {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em;
+	}
+	
+	.recipe-ingredients {
+		font-family: 'Futura', medium;
+		text-align: left;
+	}
+	
+	.recipe-instructions {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em;
+	}
+	
+	.nutrition-details {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em;
+	}
+	
+	.cooking-details {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em;
+	}
+	
+	.ingredient-details {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em  0 2em;
+	}
+	
+	.ingredient-details li {
+		padding-bottom: .5em;
+	}
+	
+	.instruction-details {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em  0 2em;
+	}
+	
+	.time {
+		font-family: 'Futura', medium;
+		text-align: left;
+		padding: 0 .5em;
+	}
+	
+	.smoothie {
+		padding-right: 7em;
+		text-decoration: none;
+		font-family: 'Futura', medium;
 	}
 	
 	.side p {
 		margin-top: 1em;
 		margin-left: 1em;
-		text-align: justify;
+		font-size: 18px;
 		margin-right: 1em;
 		font-family: 'Futura', medium;
 		word-spacing: normal;
+		border-bottom: 3px solid #C06;
+		border-top: 3px solid #C06;
+		padding: .5em 0;
+	}
+
+	
+	h1 {
+		font-family: 'Futura', medium;
+		text-align: center;
+	}
+	
+	.list p {
+		font-family: 'Futura', medium;
+		text-align: center;
+		padding-left: 1.2em;
+		margin: 0;
+		
+	}
+	
+	.list h3 {
+		text-align: center;
+		margin-bottom: 0;
+	}
+		
+	.fruit-even {
+		border-bottom: 1px solid #000;
+		margin-bottom: 1em;
+	}
+	
+	.fruit-odd {
+		border-bottom: 1px solid #000;
+	}
+	
+	.fruit-image img {
+		width: 200px;
+		padding-left: .5em;
+		display: inline;
+	}
+	
+	.content-text p {
+		padding-left: 1em;
+		font-family: 'Futura', medium;
+	}
+		
+	.content-text ul {
+		font-family: 'Futura', medium;
+	}
+	
+	.title {
+		text-transform: uppercase;
 	}
 	
 	.sidebarimg {
@@ -69,21 +240,38 @@
 		display: none;
 	}
 	
-	header {
+	.headeredible {
 		font-family: 'Futura', medium;
 		font-size: 20px;
 		float: left;
 		text-align: center;
-		padding-left: 1em;
-		padding-top: 2em;
+		padding-left: 2em;
+		padding-top: 1em;
 		word-spacing: normal;
 	}
-		
+	
+	.headerinedible {
+		font-family: 'Futura', medium;
+		font-size: 20px;
+		float: left;
+		text-align: center;
+		padding-left: .7em;
+		padding-top: 1em;
+		word-spacing: normal;
+	}
+	
+	.header {
+		font-family: 'Futura', medium;
+		font-size: 20px;
+		float: left;
+		text-align: center;
+		padding-top: 1em;
+		word-spacing: normal;
+	}
+	
 	.text {
-		float: right;
 		font-family: 'Futura';
-		font-size: 18px;
-		text-align: left;
+		font-size: 16px;
 		padding-bottom: 2em;
 		padding: 0 1em;	
 		word-spacing: normal;
@@ -92,7 +280,7 @@
 	h3 {
 		font-size: 16px;
 		font-family: 'Futura';
-		padding-left: 1em;
+		padding-left: 0;
 	}
 	
 	.list {
@@ -110,14 +298,14 @@
 		padding-bottom: 2em;
 		padding-left: .5em;
 	
-	}	
+	}
+}	
 
 @media only screen and (min-width: 25em) {
 	
 	.logoimage {
 		min-width: 300px;
 		min-height: 150px;
-		padding-left: 1.7em;
 	}	
 	
 	.side p {
@@ -126,6 +314,28 @@
 	
 	h3 {
 		font-size: 20px;
+		padding-left: 0;
+	}
+	
+	.img img {
+		padding-bottom: 2em;
+		padding-left: 7em;
+	}
+}
+
+@media only screen and (min-width: 25.8em) {
+	
+	.logoimage {
+		padding-right: .2em;
+	}	
+	
+	.side p {
+		text-align: center;
+	}
+	
+	h3 {
+		font-size: 20px;
+		padding-left: 0;
 	}
 	
 	.img img {
@@ -137,10 +347,8 @@
 @media only screen and (min-width: 30em) {
 	
 	.logoimage {
-		min-width: 300px;
-		min-height: 150px;
-		padding-left: 3em;
-	}	
+		padding-leftem;
+	}
 	
 	.side p {
 		text-align: center;
@@ -159,77 +367,62 @@
 @media only screen and (min-width: 40em) {
 	
 	.logoimage {
-		padding-right: 4em;
-		padding-left: 5em;
-	}	
+		padding-right: 6.2em;
+	}
+	
+	.headeredible {
+		padding-left: 13em;
+	}
 	
 	.img img {
 		padding-left: 12em;
-	}
-
-@media only screen and (min-width: 50em) {
-	
-	.logoimage {
-		padding-left: 1.5em;
 	}	
+}
+
+@media only screen and (min-width: 50em) {	
 	
 	.img img {
 		padding-left: 17em;
 	}
 	
-@media only screen and (min-width: 60em) {
-	
-	.logoimage {
-		padding-top: 0;
-		min-width: 300px;
-		min-height: 150px;
-		padding-left: 0;
-	}	
-	
-	.left {
-		position: fixed;
+	.headeredible {
+		padding-left: 20em;
 	}
+	
+	.list {
+		float: left;
+		text-align: left;
+		padding-left: 13em;
+	}
+	
+	.img img {
+		padding-left: 22em;
+	}
+		
+	.headerhome {
+		padding-right: 2.7em;
+}
+	
+@media only screen and (min-width: 60em) {
 	
 	.searchbar {
 		position: fixed;
 		padding-top: .5em;
 	}
 	
-	.side p {
-		float: left;
-		text-align: left;
-		padding-right: 41em;
-		padding-left: 1em;
-		padding-top: 5em;
+	.logoimage {
+		min-width: 300px;
+		min-height: 150px;
+		padding: 0;
+	}	
+	
+	.left {
+		width: 30%;
 		position: fixed;
 	}
 	
-	.common {
-		text-align: left;
-		float: left;
-		padding-left: 1.7em;
-		position: fixed;
-	}
-	
-	.uncommon {
-		text-align: left;
-		float: left;
-		padding-left: 1.7em;
-		position: fixed;
-	}
-
-	.common ul {
-		margin-bottom: 0;
-		padding-top: 0em;
-	}
-	
-	.uncommon ul {
-		padding-top: 2em;
-	}
-	
-	.img img {
-		padding-left: 17em;
-		display: none;
+	h1 {
+		paddng-top: 1em;
 	}
 	
 	header {
@@ -238,55 +431,117 @@
 		padding-right: 21.7em;
 	}
 	
-	.headercom {
-		float: right;
-		padding-top: 14em;
-		padding-right: 22.3em;
+	.headerinedible {
+		font-size: 30px;
+		font-weight: bold;
+		padding-left: 12em;
 	}
 	
-	.headeruncom {
-		float: right;
-		padding-top: 14em;
-		padding-right: 20.4em;
+	.headeredible {
+		font-size: 30px;
+		font-weight: bold;
+		padding-top: 1.3em;
+		padding-left: 9.2em;
+	}
+	
+	.headerhome {
+		font-size: 30px;
+		padding-top: 1.3em;
+		font-weight: bold;
+	}
+	
+	.headernutri {
+		font-size: 30px;
+		font-weight: bold;
+		padding-right: 17em;
+		padding-top: 1.3em;
 	}
 	
 	.sidebarimg {
-		float: left;
 		display: block;
-		padding-left: 1em;
-		position: fixed;
-		padding-top: 20em;
+		padding-left: 2em;
+		margin: 0;
 	}
 	
-	h3 {
+	.list h3 {
+		text-align: left;
+	}
+	
+	.list p {
+		text-align: left;
 		padding: 0;
-	} 
+	}
+	
+	.list li {
+		padding-bottom: 1em;
+		font-size: 14px;	
+	}
+	
+	.list ul {
+		padding-right: 10em;
+		padding-left: 2em;
+	}
 	
 	.text {
 		float: right;
 		clear: both;
-		padding-left: 18em;
+		padding-left: 20em;
 		padding-bottom: 3em;
+	}
+	
+	.text p {
+		padding-left: 0;
 	}
 	
 	.list {
 		float: right;
 		clear: both;
-		padding-left: 22em;
+		padding-left: 24em;
 		padding-bottom: 3em;
 	}
+	
+	.list ul {
+		padding-left: 2em;
+	}
+	
+	.right {
+		float: right;
+	}
 
+	.img img {
+		display: none;
+	}
+	
+	.fruit-even {
+		display: inline;
+		clear: both;
+	}
+	
+	.fruit-odd {
+		display: inline;
+		clear: both;
+	}
+}
 @media only screen and (min-width: 65em) {
 	
-	.side p {
-		padding-right: 48em;
+	.left logo side p {
+		padding: 0;
+		margin: 0;
 	}
+	
 	
 }
 
 @media only scree and (min-width: 80em) {
 	
-	.side p {	
-		clear: both;
+	.list {
+		padding-right: 20em;
+		padding-left: 0;
+	}
+	
+	.headeredible {
+		font-size: 30px;
+		font-weight: bold;
+		padding-left: 0;
 	}
 }
