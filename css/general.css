@@ -484,7 +484,7 @@
 	
 	.text {
 		float: right;
-		clear: both;
+		width: 65%;
 		padding-left: 20em;
 		padding-bottom: 3em;
 	}
@@ -529,13 +529,14 @@
 		margin: 0;
 	}
 	
-	
-}
-
-@media only scree and (min-width: 80em) {
+	.sidebarimg {
+		padding-left: 7em;
+		padding-top: 1em;
+		margin: 0;
+	}
 	
 	.list {
-		padding-right: 20em;
+		padding-right: 18em;
 		padding-left: 0;
 	}
 	
@@ -544,4 +545,82 @@
 		font-weight: bold;
 		padding-left: 0;
 	}
+	
+	.content-text li {
+		padding-bottom: .4em;
+	}
+	
+	.fruit-odd {
+		display: inline;
+		width: 25%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.fruit-even {
+		display: inline;
+		width: 25%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.description {
+		float: right;
+		padding: 0 10em 0 30em;
+		margin: 0;
+	}
+	
+	.name {
+		padding-right: 12em;
+		padding-bottom: 1em;
+	}
+	
+	header {
+		margin: 0;
+		padding: 0;
+		clear: both;
+	}
+	
+	.recipeimg {
+		max-height: 400px;
+		max-width: 400px;
+		padding-right: 10em;
+		margin: 0;
+	}
+	
+	.recipe {
+		float: right;
+		padding: 0 0 0 30em;
+	}
+	
+	.time {
+		float: right;
+		padding: 0 0 0 30em;
+	}
+		
+	.author {
+		float: right;
+		padding: 0 0 0 20em;
+	}
+	
+	.ingredient-list {
+		float: right;
+		width: 33.3333%;
+		padding-bottom: 10em;
+	}
+	
+	.instruction-list {
+		float: left;
+		clear: both;
+		width: 66.6666;
+	}
+}
+
+@media only scree and (min-width: 80em) {
+	
+	
+	
+	
+	
+	
 }
