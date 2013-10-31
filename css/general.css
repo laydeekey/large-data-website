@@ -6,6 +6,8 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 	
+	
+	
 	.searchbar {
 		padding-left: 2em;
 		float: left;
@@ -39,6 +41,10 @@
 		font-family: 'Futura', medium;
 		text-align: center;
 		font-size: 18px;
+	}
+	
+	.links nav a {
+		color: #c09;
 	}
 	
 	.edible {
@@ -169,12 +175,6 @@
 		padding: 0 .5em;
 	}
 	
-	.smoothie {
-		padding-right: 7em;
-		text-decoration: none;
-		font-family: 'Futura', medium;
-	}
-	
 	.side p {
 		margin-top: 1em;
 		margin-left: 1em;
@@ -186,7 +186,6 @@
 		border-top: 3px solid #C06;
 		padding: .5em 0;
 	}
-
 	
 	h1 {
 		font-family: 'Futura', medium;
@@ -346,10 +345,6 @@
 
 @media only screen and (min-width: 30em) {
 	
-	.logoimage {
-		padding-leftem;
-	}
-	
 	.side p {
 		text-align: center;
 	}
@@ -370,10 +365,6 @@
 		padding-right: 6.2em;
 	}
 	
-	.headeredible {
-		padding-left: 13em;
-	}
-	
 	.img img {
 		padding-left: 12em;
 	}	
@@ -385,23 +376,20 @@
 		padding-left: 17em;
 	}
 	
-	.headeredible {
-		padding-left: 20em;
-	}
-	
 	.list {
 		float: left;
 		text-align: left;
-		padding-left: 13em;
 	}
 	
 	.img img {
 		padding-left: 22em;
 	}
-		
-	.headerhome {
-		padding-right: 2.7em;
-}
+	
+	.text {
+		margin: 0;
+		padding: 0;
+	}
+	
 	
 @media only screen and (min-width: 60em) {
 	
@@ -421,6 +409,13 @@
 		position: fixed;
 	}
 	
+	.text p {
+		clear: both;
+		text-align: left;
+	}
+	
+
+	
 	h1 {
 		paddng-top: 1em;
 	}
@@ -434,26 +429,32 @@
 	.headerinedible {
 		font-size: 30px;
 		font-weight: bold;
-		padding-left: 12em;
 	}
 	
 	.headeredible {
 		font-size: 30px;
 		font-weight: bold;
-		padding-top: 1.3em;
-		padding-left: 9.2em;
+		padding: 1.3em 0 0 0;
+		float: left;
 	}
 	
 	.headerhome {
 		font-size: 30px;
 		padding-top: 1.3em;
 		font-weight: bold;
+		float: left;
 	}
 	
 	.headernutri {
 		font-size: 30px;
 		font-weight: bold;
-		padding-right: 17em;
+		padding-top: 1.3em;
+		float: left;
+		display: block;
+	}
+	
+	.headerrecipe {
+		float: left;
 		padding-top: 1.3em;
 	}
 	
@@ -461,15 +462,6 @@
 		display: block;
 		padding-left: 2em;
 		margin: 0;
-	}
-	
-	.list h3 {
-		text-align: left;
-	}
-	
-	.list p {
-		text-align: left;
-		padding: 0;
 	}
 	
 	.list li {
@@ -483,21 +475,26 @@
 	}
 	
 	.text {
-		float: right;
 		width: 65%;
-		padding-left: 20em;
 		padding-bottom: 3em;
-	}
-	
-	.text p {
-		padding-left: 0;
 	}
 	
 	.list {
-		float: right;
-		clear: both;
-		padding-left: 24em;
 		padding-bottom: 3em;
+		clear: both;
+	}
+	
+	.list h3 {
+		text-align: left;
+	}
+	
+	.list p {
+		text-align: left;
+		padding: 0;
+	}
+	
+	.list li {
+		font-size: 17px;
 	}
 	
 	.list ul {
@@ -506,6 +503,7 @@
 	
 	.right {
 		float: right;
+		width: 66%;
 	}
 
 	.img img {
@@ -513,14 +511,33 @@
 	}
 	
 	.fruit-even {
-		display: inline;
-		clear: both;
+		display: block;
+		float: right;
+		width: 23%;
+		border-bottom: hidden; 
+		/*padding: 0 1em; */
 	}
 	
 	.fruit-odd {
-		display: inline;
-		clear: both;
+		display: block;
+		float: right;
+		width: 23%;
+		border-bottom: hidden;
+		/*
+		border-right: 1px solid #C06;
+		padding-left: .5em; */
 	}
+	
+	.nutri-info {
+		clear: both;
+		padding-right: 5em;
+	}
+	
+	.title {
+		text-align: center;
+	}
+	
+
 }
 @media only screen and (min-width: 65em) {
 	
@@ -535,49 +552,29 @@
 		margin: 0;
 	}
 	
-	.list {
-		padding-right: 18em;
-		padding-left: 0;
-	}
-	
 	.headeredible {
 		font-size: 30px;
 		font-weight: bold;
-		padding-left: 0;
 	}
 	
 	.content-text li {
 		padding-bottom: .4em;
 	}
-	
-	.fruit-odd {
-		display: inline;
-		width: 25%;
-		padding: 0;
-		margin: 0;
-	}
-	
-	.fruit-even {
-		display: inline;
-		width: 25%;
-		padding: 0;
-		margin: 0;
-	}
+
 	
 	.description {
-		float: right;
-		padding: 0 10em 0 30em;
-		margin: 0;
+		float: left;
 	}
 	
 	.name {
-		padding-right: 12em;
+		text-align: left;
 		padding-bottom: 1em;
 	}
 	
 	header {
 		margin: 0;
 		padding: 0;
+		float: left;
 		clear: both;
 	}
 	
@@ -590,37 +587,39 @@
 	
 	.recipe {
 		float: right;
-		padding: 0 0 0 30em;
+	}
+	
+	.author {
+		float: left;
+		clear: both;
+		margin: .5em;
 	}
 	
 	.time {
-		float: right;
-		padding: 0 0 0 30em;
-	}
-		
-	.author {
-		float: right;
-		padding: 0 0 0 20em;
+		float: left;
+		clear: both;
 	}
 	
 	.ingredient-list {
-		float: right;
+		float: left;
 		width: 33.3333%;
-		padding-bottom: 10em;
+		padding-top: 2em;
 	}
 	
 	.instruction-list {
+		float: right;
+		width: 66.6%;
+		padding-top: 2em;
+	}
+	
+	.cooking-list {
 		float: left;
 		clear: both;
-		width: 66.6666;
+		width: 33.3%;
 	}
-}
-
-@media only scree and (min-width: 80em) {
 	
-	
-	
-	
-	
-	
+	.nutrition-list {
+		float: left;
+		width: 33.3%;
+	}	
 }
