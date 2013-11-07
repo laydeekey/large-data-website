@@ -2,46 +2,55 @@
 layout: default
 ---
 		
-		<nav class="home">
-			<ul>
-				<li>
-					<a href="{{site.baseurl}}/index.html">HOME</a>
-				</li>
-			</ul>
-		</nav>
-		
-		<nav class="edible">
-			<ul>
-				<li>
-					<a href="{{site.baseurl}}/edible-berries.html">EDIBLE BERRIES</a>
-				</li>
-			</ul>
-		</nav>
-		<nav class="nutrition">
-			<ul>
-				<li>
-					<a href="{{site.baseurl}}/nutrition.html">NUTRITION</a>
-				</li>
-			</ul>
-		</nav>
-		<nav class="recipes">
-			<ul>
-				<li>
-					<a href="{{site.baseurl}}/recipes.html">RECIPES</a>
-				</li>
-			</ul>
-		</nav>
-		
-		<p>The following is an incomplete list of <em>fleshy fruits</em> that may appear to be edible by humans, but are not. Some of them are <strong>poisonous</strong>, others are merely too unpalatable for consumption.</p>
-		
-		<img src="img/berry-2.png" class="sidebarimg" alt="Photo of Common Berries">
-			
-	</div>
+<ul class="skiplinks">
+	<li><a href="#main">Skip to primary content</a></li>
+	<li><a href="#complementary">Skip to secondary content</a></li>
+	<li><a href="#navigation">Skip to navigation</a></li>
+</ul>
 
+<nav role="navigation" id="navigation">
+	<nav class="home">
+		<ul>
+			<li>
+				<a href="{{site.baseurl}}/index.html">HOME</a>
+			</li>
+		</ul>
+	</nav>
 	
-	<div class="right"><h1 class="headerinedible">INEDIBLE BERRIES</h1>
+	<nav class="edible">
+		<ul>
+			<li>
+				<a href="{{site.baseurl}}/edible-berries.html">EDIBLE BERRIES</a>
+			</li>
+		</ul>
+	</nav>
+	<nav class="nutrition">
+		<ul>
+			<li>
+				<a href="{{site.baseurl}}/nutrition.html">NUTRITION</a>
+			</li>
+		</ul>
+	</nav>
+	<nav class="recipes">
+		<ul>
+			<li>
+				<a href="{{site.baseurl}}/recipes.html">RECIPES</a>
+			</li>
+		</ul>
+	</nav>
+</nav>
 
-<nav class="list">
+<p>The following is an incomplete list of <em>fleshy fruits</em> that may appear 
+to be edible by humans, but are not. Some of them are <strong>poisonous</strong>, 
+others are merely too unpalatable for consumption.</p>
+
+<img src="img/berry-2.png" class="sidebarimg" alt="Photo of Common Berries">
+
+</div>
+
+<main role="main" id="main">
+	<div class="right"><h1 class="headerinedible">INEDIBLE BERRIES</h1>
+		<nav class="list">
 			<ul>
 				<li>
 					<a href="img/image-1.jpg">
@@ -106,11 +115,11 @@ layout: default
 			</ul>
 		</nav>
 	</div>
-
+</main>
 
 	
-	<div class="img">
-		<img src="img/berry-2.png" alt="Photo of Common Berries">
-	</div>
+<div class="img">
+	<img src="img/berry-2.png" alt="Photo of Common Berries">
+</div>
 
 
