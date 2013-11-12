@@ -465,7 +465,6 @@
 	.logoimage {
 		min-width: 300px;
 		min-height: 150px;
-		padding: 0 5em;
 	}	
 	
 	.left {
@@ -522,7 +521,6 @@
 	
 	.sidebarimg {
 		display: block;
-		padding-left: 2em;
 		margin: 0;
 	}
 	
@@ -565,7 +563,7 @@
 	
 	.right {
 		float: right;
-		width: 66%;
+		width: 60%;
 	}
 
 	.img img {
@@ -575,7 +573,7 @@
 	.fruit-even {
 		display: block;
 		float: right;
-		width: 23%;
+		width: 25%;
 		border-bottom: hidden; 
 		/*padding: 0 1em; */
 	}
@@ -583,7 +581,7 @@
 	.fruit-odd {
 		display: block;
 		float: right;
-		width: 23%;
+		width: 25%;
 		border-bottom: hidden;
 		/*
 		border-right: 1px solid #C06;
@@ -598,9 +596,8 @@
 	.title {
 		text-align: center;
 	}
-	
-
 }
+
 @media only screen and (min-width: 65em) {
 	
 	.left logo side p {
@@ -609,7 +606,7 @@
 	}
 	
 	.sidebarimg {
-		padding-left: 7em;
+		padding-left: 5em;
 		padding-top: 1em;
 		margin: 0;
 	}
@@ -684,4 +681,31 @@
 		float: left;
 		width: 33.3%;
 	}	
+	
+	.title {
+		font-size: 15px;
+	}
+	
+	.content {
+		background-color: #CCC;
+		border: solid 2px #FFF;
+		background-size: auto;
+	}
+	
+	.content-text {
+		background-color: #CCC;
+		border-top: solid 4px #FFF;
+		background-size: auto;
+	}
+	
+	.fruit-even {
+		width: 50%;
+	}
+	
+	fruit-odd {
+		width: 50%;
+	}
+		
+	
+	
 }
