@@ -6,6 +6,9 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 	
+	html {
+		background-image: url(../img/background.png);
+	}
 	
 	.skiplinks {
 		margin: 0;
@@ -57,8 +60,6 @@
 	}
 	
 	.logoimage {
-		width: 100%;
-		height: 100%;
 		padding: 0;
 		margin-top: 1em;
 		max-width: 175px;
@@ -311,6 +312,14 @@
 		word-spacing: normal;
 	}
 	
+	.header404 {
+		font-family: 'Futura', medium;
+		font-size: 20px;
+		text-align: center;
+		padding-top: 1em;
+		word-spacing: normal;
+	}
+	
 	.text {
 		font-family: 'Futura';
 		font-size: 16px;
@@ -339,13 +348,19 @@
 		max-height: 200px;
 		padding-bottom: 2em;
 		padding-left: .5em;
-	
 	}
+	
+	#main {
+		text-align: center;
+	}
+	
+		
 }	
 
 @media only screen and (min-width: 25em) {
 	
 	.logoimage {
+		padding: 0 6em;
 		min-width: 300px;
 		min-height: 150px;
 	}	
@@ -367,10 +382,6 @@
 
 @media only screen and (min-width: 25.8em) {
 	
-	.logoimage {
-		width: 100%;
-	}	
-	
 	.side p {
 		text-align: center;
 	}
@@ -389,7 +400,7 @@
 @media only screen and (min-width: 30em) {
 	
 	.logoimage {
-		width: 100%;
+		padding: 0 5em 0 0;
 	}
 	
 	.side p {
@@ -455,6 +466,11 @@
 	
 	footer {
 		clear: both;
+		font-family: 'Futura';
+		font-size: 14px;
+		text-align: left;
+		padding: 0 0 1em 1em;
+		text-decoration: none;
 	}
 	
 	.searchbar {
@@ -485,6 +501,10 @@
 		float: right;
 		padding-top: 14em;
 		padding-right: 21.7em;
+	}
+	
+	.recipeimg {
+		padding-left: 5em;
 	}
 	
 	.headerinedible {
@@ -519,6 +539,13 @@
 		padding-top: 1.3em;
 	}
 	
+	.header404 {
+		font-size: 30px;
+		font-weight: bold;
+		padding-top: 1.3em;
+		text-align: left;
+		display: block;
+	}
 	.sidebarimg {
 		display: block;
 		margin: 0;
@@ -563,7 +590,8 @@
 	
 	.right {
 		float: right;
-		width: 60%;
+		width: 55%;
+		padding-right: 2em;
 	}
 
 	.img img {
@@ -572,17 +600,17 @@
 	
 	.fruit-even {
 		display: block;
-		float: right;
-		width: 25%;
+		width: 50%;
 		border-bottom: hidden; 
+		margin: 0
 		/*padding: 0 1em; */
 	}
 	
 	.fruit-odd {
 		display: block;
-		float: right;
-		width: 25%;
+		width: 50%;
 		border-bottom: hidden;
+		margin: 0;
 		/*
 		border-right: 1px solid #C06;
 		padding-left: .5em; */
@@ -590,7 +618,10 @@
 	
 	.nutri-info {
 		clear: both;
-		padding-right: 5em;
+	}
+	
+	.fruit-image {
+		padding: 2em 0 .5em 2em;
 	}
 	
 	.title {
