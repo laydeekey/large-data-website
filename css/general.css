@@ -10,6 +10,7 @@
 		background-image: url(../img/background.png);
 	}
 	
+	
 	.skiplinks {
 		margin: 0;
 		padding: 0;
@@ -347,15 +348,30 @@
 		max-width: 200px;
 		max-height: 200px;
 		padding-bottom: 2em;
-		padding-left: .5em;
+		padding-left: 3em;
 	}
 	
 	#main {
 		text-align: center;
 	}
 	
+	footer {
+		clear: both;
+		font-family: 'Futura';
+		font-size: 14px;
+		text-align: center;
+		text-decoration: none;
+	}
+	
 		
 }	
+
+@media only screen and (min-width: 20em) {
+	
+	.img img {
+		padding-left: 8em;
+	}
+}
 
 @media only screen and (min-width: 25em) {
 	
@@ -380,7 +396,7 @@
 	}
 }
 
-@media only screen and (min-width: 25.8em) {
+@media only screen and (min-width: 30em) {
 	
 	.side p {
 		text-align: center;
@@ -393,11 +409,11 @@
 	
 	.img img {
 		padding-bottom: 2em;
-		padding-left: 7em;
+		padding-left: 10.3em;
 	}
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 35em) {
 	
 	.logoimage {
 		padding: 0 5em 0 0;
@@ -417,34 +433,37 @@
 	
 	.img img {
 		padding-bottom: 2em;
-		padding-left: 7em;
+		padding-left: 11em;
 	}
 }
 
 @media only screen and (min-width: 40em) {
 	
 	.logoimage {
+		padding-left: 3em;
 		width: 100%;
 	}
 	
 	.img img {
 		padding-left: 12em;
 	}	
+
 }
 
 @media only screen and (min-width: 50em) {		
 	
 	.img img {
-		padding-left: 17em;
+		margin: 0;
+	}
+	
+	.sidebarimg {
+		margin: 0
+		padding-left: 2em;	
 	}
 	
 	.list {
 		float: left;
 		text-align: left;
-	}
-	
-	.img img {
-		padding-left: 22em;
 	}
 	
 	.text {
@@ -465,12 +484,8 @@
 	}
 	
 	footer {
-		clear: both;
-		font-family: 'Futura';
-		font-size: 14px;
 		text-align: left;
 		padding: 0 0 1em 1em;
-		text-decoration: none;
 	}
 	
 	.searchbar {
@@ -481,10 +496,11 @@
 	.logoimage {
 		min-width: 300px;
 		min-height: 150px;
+		padding: 0;
 	}	
 	
 	.left {
-		width: 30%;
+		width: 60%;
 		position: fixed;
 	}
 	
@@ -546,6 +562,7 @@
 		text-align: left;
 		display: block;
 	}
+	
 	.sidebarimg {
 		display: block;
 		margin: 0;
@@ -627,7 +644,10 @@
 	.title {
 		text-align: center;
 	}
-}
+	
+	footer {
+		padding: .5em 0 4em 37em;
+	}
 
 @media only screen and (min-width: 65em) {
 	
@@ -636,9 +656,19 @@
 		margin: 0;
 	}
 	
+	.left {
+		width: 30%;
+		padding-left: 2em;
+	}
+	
+	.right {
+		width: 50%;
+		padding: 0;
+	}
+	
 	.sidebarimg {
-		padding-left: 5em;
-		padding-top: 1em;
+		padding-left: 7em;
+		padding-top: 1.5em;
 		margin: 0;
 	}
 	
@@ -651,13 +681,12 @@
 		padding-bottom: .4em;
 	}
 
-	
 	.description {
 		float: left;
 	}
 	
 	.name {
-		text-align: left;
+		text-align: center;
 		padding-bottom: 1em;
 	}
 	
@@ -671,7 +700,7 @@
 	.recipeimg {
 		max-height: 400px;
 		max-width: 400px;
-		padding-right: 10em;
+		padding-right: 8em;
 		margin: 0;
 	}
 	
@@ -680,12 +709,14 @@
 	}
 	
 	.author {
+		padding-left: 14em;
 		float: left;
 		clear: both;
 		margin: .5em;
 	}
 	
 	.time {
+		padding-left: 14.7em;
 		float: left;
 		clear: both;
 	}
