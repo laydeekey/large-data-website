@@ -8,6 +8,7 @@
 	
 	html {
 		background-image: url(../img/background.png);
+		background-attachment: fixed;
 	}
 	
 	
@@ -235,6 +236,7 @@
 	h1 {
 		font-family: 'Futura', medium;
 		text-align: center;
+		clear: both;
 	}
 	
 	.list p {
@@ -377,7 +379,6 @@
 @media only screen and (min-width: 25em) {
 	
 	.logoimage {
-		padding: 0 6em;
 		min-width: 300px;
 		min-height: 150px;
 	}	
@@ -417,7 +418,7 @@
 @media only screen and (min-width: 35em) {
 	
 	.logoimage {
-		padding: 0 5em 0 0;
+		
 	}
 	
 	.side p {
@@ -441,7 +442,7 @@
 @media only screen and (min-width: 40em) {
 	
 	.logoimage {
-		padding-left: 3em;
+
 		width: 100%;
 	}
 	
@@ -608,7 +609,7 @@
 	
 	.right {
 		float: right;
-		width: 55%;
+		width: 60%;
 		padding-right: 2em;
 	}
 
@@ -663,8 +664,9 @@
 	}
 	
 	.right {
-		width: 50%;
+		width: 55%;
 		padding: 0;
+		margin: 0;
 	}
 	
 	.sidebarimg {
