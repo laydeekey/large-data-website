@@ -9,6 +9,12 @@
 	html {
 		background-image: url(../img/background.png);
 		background-attachment: fixed;
+		background-color: #fff;
+	}
+	
+	body {
+		max-width: 700px;
+		margin: 0 auto;
 	}
 	
 	.skiplinks {
@@ -56,8 +62,8 @@
 	}
 	
 	.searchbar {
+		padding-left: 4em;
 		float: left;
-		width: 50%;
 	}
 	
 	.logoimage {
@@ -365,9 +371,17 @@
 		text-decoration: none;
 	}
 	
+	#top {
+		padding-bottom: 1em;
+	}
 		
 }	
 
+@media only screen and (min-width: 20em) {
+	body {
+		max-width: none;
+	}
+	
 @media only screen and (min-width: 20em) {
 	
 	.img img {
