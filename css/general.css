@@ -56,8 +56,8 @@
 	}
 	
 	.searchbar {
-		padding-left: 2em;
 		float: left;
+		width: 50%;
 	}
 	
 	.logoimage {
@@ -458,7 +458,7 @@
 	}
 	
 	.sidebarimg {
-		margin: 0
+		margin: 0;
 		padding-left: 2em;	
 	}
 	
