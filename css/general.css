@@ -15,6 +15,7 @@
 	body {
 		max-width: 700px;
 		margin: 0 auto;
+		background-color: #fff;
 	}
 	
 	.skiplinks {
@@ -70,7 +71,6 @@
 		padding: 0;
 		margin: 0;
 		margin-top: 1em;
-		max-height: 130px;
 	}
 	
 	.home {
@@ -413,6 +413,7 @@
 	body {
 		max-width: none;
 	}
+}
 	
 @media only screen and (min-width: 20em) {
 	
@@ -517,7 +518,7 @@
 		margin: 0;
 		padding: 0;
 	}
-	
+}
 	
 @media only screen and (min-width: 60em) {
 	
