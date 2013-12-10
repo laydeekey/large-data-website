@@ -62,15 +62,15 @@
 	}
 	
 	.searchbar {
-		padding-left: 4em;
+		padding: 1em 0 0 4em;
 		float: left;
 	}
 	
 	.logoimage {
 		padding: 0;
+		margin: 0;
 		margin-top: 1em;
-		max-width: 175px;
-		max-height: 250px;
+		max-height: 130px;
 	}
 	
 	.home {
@@ -246,15 +246,18 @@
 	
 	.list p {
 		font-family: 'Futura', medium;
-		text-align: center;
+		font-size: 17px;
+		text-align: left;
 		padding-left: 1.2em;
 		margin: 0;
 		
 	}
 	
 	.list h3 {
-		text-align: center;
+		text-align: left;
+		padding: 0 0 .5em 1em;
 		margin-bottom: 0;
+		font-size: 20px;
 	}
 		
 	.fruit-even {
@@ -293,10 +296,8 @@
 	
 	.headeredible {
 		font-family: 'Futura', medium;
-		font-size: 20px;
-		float: left;
+		font-size: 30px;
 		text-align: center;
-		padding-left: 2em;
 		padding-top: 1em;
 		word-spacing: normal;
 	}
@@ -346,9 +347,9 @@
 	.list {
 		float: right;
 		font-family: 'Futura';
-		font-size: 14px;
+		font-size: 15px;
 		text-align: left;
-		padding-right: 1em;
+		padding: 0 1em .5em 0;
 	}
 		
 	
@@ -356,7 +357,7 @@
 		max-width: 200px;
 		max-height: 200px;
 		padding-bottom: 2em;
-		padding-left: 3em;
+		padding-left: 16em;
 	}
 	
 	#main {
